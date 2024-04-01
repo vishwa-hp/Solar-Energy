@@ -1,0 +1,53 @@
+{
+    "energyResources": [
+      
+      {
+        "id": 1,
+        "type": "solar",
+        "name": "Solar Panels",
+        "power": -20,
+        "online": true
+      },
+      {
+        "id": 2,
+        "type": "battery",
+        "name": "Battery Backup",
+        "power": 5,
+        "soc": 65,
+        "online": true
+      },
+      {
+        "id": 3,
+        "type": "electricVehicle",
+        "name": "Electric Vehicle",
+        "power": 8,
+        "online": true
+      },
+      {
+        "id": 4,
+        "name": "Heating Water",
+        "type": "Heating Water",
+        "power": 3.5, 
+        "online": true 
+      },
+      {
+        "id": 5,
+        "name": "Lighting Home",
+        "type": "Lighting Home",
+        "power": 5.0, 
+        "online": true 
+      },
+      {
+        "id": 6,
+        "type": "load",
+        "name": "General Loads",
+        "power": 4,
+        "online": true
+      }
+    ],
+    "grid": {
+      "status": "online",
+      "powerFlow": 0
+    }
+  }
+  
