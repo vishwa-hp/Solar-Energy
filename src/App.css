@@ -46,6 +46,7 @@ body {
 }
 .App {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 
@@ -116,4 +117,11 @@ body {
 .grid-section:before {
   right: -15px;
   border-left: 15px solid black;
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    
+    flex-direction: column;
+    
+  }
 }
